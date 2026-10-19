@@ -1,0 +1,51 @@
+text,category
+There is a dripping faucet in the chemistry building washroom.,Facilities
+The dorm ceiling fan makes grinding noises and stops.,Facilities
+Please repair the broken bathroom commode in block B.,Facilities
+Water is pooling from a damaged overhead pipe in the reading room.,Facilities
+The seminar hall air-conditioning no longer works.,Facilities
+Several classroom seats have snapped hinges.,Facilities
+The corridor fluorescent bulbs keep going dark.,Facilities
+The elevator doors fail to shut on the third floor.,Facilities
+The canteen sink drain is blocked with debris.,Facilities
+A loose wooden door frame needs maintenance.,Facilities
+My laptop cannot join the eduroam wireless network.,IT
+The campus student dashboard displays HTTP 503.,IT
+The multimedia lab PCs reboot unexpectedly.,IT
+I cannot access the Moodle course website.,IT
+The classroom laser printer refuses to print documents.,IT
+Account recovery emails never reach my inbox.,IT
+The smart classroom screen will not detect the laptop connection.,IT
+The computer lab internet service drops during assignments.,IT
+University single sign-on rejects my correct password.,IT
+The online form crashes whenever I attach a PDF.,IT
+The locked emergency stairwell is preventing evacuation.,Safety
+An electrical cable is exposed beside the drinking fountain.,Safety
+Someone is stealing backpacks outside the examination hall.,Safety
+There is a strong smell of leaking cooking gas.,Safety
+Students are slipping on wet stairs and getting hurt.,Safety
+A loose overhead sign threatens to fall onto the footpath.,Safety
+The smoke detector in the laboratory is silent.,Safety
+Strangers are forcing their way through the back security gate.,Safety
+Broken glass is lying where pedestrians walk barefoot.,Safety
+A chemical spill in the science lab needs immediate attention.,Safety
+The department entered the wrong grade on my transcript.,Academic
+Two compulsory lectures are listed at exactly the same time.,Academic
+My academic adviser has not signed my study plan.,Academic
+The course outline for statistics is unavailable.,Academic
+My final assessment score was calculated incorrectly.,Academic
+The examination timetable shows the wrong room number.,Academic
+I am unable to obtain approval for course overload.,Academic
+A required lecture was postponed without an alternative date.,Academic
+The portal shows the wrong instructor for this subject.,Academic
+The published scholarship eligibility credits are inaccurate.,Academic
+The university shuttle missed the north gate pickup again.,Transport
+Our student bus is delayed by almost an hour each day.,Transport
+The campus transport van did not show up for the trip.,Transport
+My bus boarding pass is being rejected by the conductor.,Transport
+Evening shuttle service stopped before the last lecture.,Transport
+We need more university buses on the morning route.,Transport
+The shuttle tracking map has the wrong bus location.,Transport
+The bus departed from a different stop without warning.,Transport
+The transport schedule lists an incorrect departure time.,Transport
+The route through the south gate has been discontinued.,Transport

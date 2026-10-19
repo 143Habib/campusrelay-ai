@@ -1,0 +1,86 @@
+{
+  "model": "TF-IDF + balanced multinomial logistic regression",
+  "evaluation_set": "Separately authored synthetic English issue descriptions",
+  "data_provenance": "Authored examples in data/train.csv and data/holdout.csv; NOT real institution data",
+  "train_examples": 380,
+  "holdout_examples": 50,
+  "accuracy": 0.92,
+  "macro_f1": 0.9165,
+  "labels": [
+    "Facilities",
+    "IT",
+    "Safety",
+    "Academic",
+    "Transport"
+  ],
+  "confusion_matrix": [
+    [
+      10,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      7,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      10,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      9
+    ]
+  ],
+  "per_class": {
+    "Facilities": {
+      "precision": 0.9091,
+      "recall": 1.0,
+      "f1-score": 0.9524,
+      "support": 10.0
+    },
+    "IT": {
+      "precision": 0.9091,
+      "recall": 1.0,
+      "f1-score": 0.9524,
+      "support": 10.0
+    },
+    "Safety": {
+      "precision": 0.875,
+      "recall": 0.7,
+      "f1-score": 0.7778,
+      "support": 10.0
+    },
+    "Academic": {
+      "precision": 0.9091,
+      "recall": 1.0,
+      "f1-score": 0.9524,
+      "support": 10.0
+    },
+    "Transport": {
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1-score": 0.9474,
+      "support": 10.0
+    }
+  },
+  "limitations": "Synthetic, related-domain examples only; not validated on real campus incidents or non-English reports."
+}

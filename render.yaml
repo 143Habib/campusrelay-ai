@@ -1,0 +1,19 @@
+# Ready for Render Blueprint: New > Blueprint > select your GitHub repository.
+# Free instance works for evaluation but has EPHEMERAL SQLite storage.
+# For persistent production records, use a paid persistent disk/volume or
+# replace SQLite with managed PostgreSQL before real institution deployment.
+services:
+  - type: web
+    name: campusrelay-ai
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: ENABLE_DEMO_DATA
+        value: "true"
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: DATABASE_PATH
+        value: /app/instance/campusrelay.db
